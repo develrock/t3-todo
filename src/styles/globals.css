@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+@layer components {
+  .btn {
+    @apply rounded-xl bg-gray-700 px-10 py-3 font-semibold text-white transition hover:opacity-80 disabled:opacity-80
+  }
+  .btn-sm {
+    @apply p-1 px-3 text-xs;
+  }
+}
